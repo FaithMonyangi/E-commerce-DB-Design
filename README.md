@@ -1,2 +1,2 @@
-## E_commerce ERD diagram
+## E-commerce ERD diagram
 ![ERD Diagram](E-commerce-ERD.png)
