@@ -18,3 +18,16 @@ Through this project, learners will build foundational knowledge in database man
 
 ## E-commerce ERD diagram
 ![ERD Diagram](E-commerce-ERD.png)
+
+
+# Creating Database Tables
+
+This database schema models an <strong> e-commerce product catalog </strong>. 
+
+Here's what each table does:
+
+- `attribute_category` - Groups attribute types, eg., "Technical Specs", "Material".
+
+- `attribute_type` - Specific attribute names like "Battery Life" or "Fabric Type", linked to a category.
+
+- `size_category` - Groups of sizes (e.g., Clothing Sizes, Shoe Sizes).
