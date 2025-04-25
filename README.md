@@ -53,7 +53,7 @@ Here's what each table does:
 
 - `product_image` - Images associated with products, with a flag for the thumbnail.
 
-- `product_item` - Represents a specific stock unit (size + color + SKU) for the product.
+- `product_item` - Represents a specific stock unit (size + color) for the product.
 
 - `product_variation` - Describes product variations ("Limited Edition", "Summer Collection").
 
@@ -69,7 +69,3 @@ Here's what each table does:
 - <strong>Foreign Keys everywhere</strong> → maintain relational integrity.
 
 - <strong>Indexes</strong> (implicit through primary keys and foreign keys).
-
-- <strong>Unique constraint</strong> on SKU in `product_item` → avoids duplicate SKU errors.
-
-- <strong>Boolean</strong> fields where needed (`is_thumbnail`).
